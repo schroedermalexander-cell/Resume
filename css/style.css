@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  background-color: #f4f6f8;
+  color: #1f2933;
+}
+
+h1 {
+  color: #102a43;
+}
+
+h2 {
+  color: #243b53;
+}
+
+nav {
+  background-color: #d9e2ec;
+}
+
+a {
+  color: #0b3d91;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: #0b3d91;
+}
+
+.highlight {
+  color: #334e68;
+}
+
+#main-footer {
+  background-color: #bcccdc;
+  color: #102a43;
+}
