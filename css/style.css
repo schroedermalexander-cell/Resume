@@ -54,6 +54,27 @@ nav ul li a {
   color: #0b3d91;
 }
 
+ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+ol {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 3px solid #bcccdc;
+  padding: 0.3rem;
+  margin: 1rem 0;
+}
+
 .highlight {
   color: #334e68;
   padding: 0.3em;
