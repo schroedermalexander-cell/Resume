@@ -28,7 +28,7 @@ h2 {
   color: #243b53;
   font-size: 1.5rem;
   font-weight: 600;
-  margin-top: 1.5rem;
+  margin-top: 0;
   padding: 0.5em;
   border: 2px solid #d9e2ec;
 }
@@ -48,10 +48,26 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 nav ul li a {
   color: #0b3d91;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+section {
+  flex: 1 1 320px;
+  padding: 1rem;
+  border: 2px solid #d9e2ec;
+  box-sizing: border-box;
 }
 
 ul {
@@ -73,6 +89,7 @@ img {
   border: 3px solid #bcccdc;
   padding: 0.3rem;
   margin: 1rem 0;
+  box-sizing: border-box;
 }
 
 .highlight {
